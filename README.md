@@ -1,2 +1,0 @@
-# CSharp
- Estudo com CSharp
