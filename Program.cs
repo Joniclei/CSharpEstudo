@@ -28,8 +28,12 @@ namespace avaliacao
                 {
                     case 1:
                         {
+                            double tempo;
+                            Console.WriteLine("Escreva a duração do evento em segundos : \n");
+                            tempo = Convert.ToDouble(Console.ReadLine());
 
-                            Exercicio01.Ex1();
+                            Exercicio01.Ex1(tempo);
+                            
                             Console.WriteLine("Digite qualquer tecla para continuar:");
                             Console.ReadKey();
                             Console.Clear();
@@ -146,7 +150,7 @@ namespace avaliacao
                         }
                     case 8:
                         {
-                            // que leia um número inteiro de 1 a 7 e imprima o dia da semana correspondente,utilizando a estrutura switch case. 
+                            // que leia um número inteiro de 1 a 7 e imprima o dia da semana correspondente,utilizando a estrutura switch case.
                             //Implemente uma função que recebe o número e retorna onome do dia da semana correspondente.
                             int ds = 0;
 
