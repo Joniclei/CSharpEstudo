@@ -12,11 +12,11 @@ namespace avaliacao
     {
 
       // exericio 01(06)1
-      double tempo;
+
       int hora;
       int minutos;
       int segundos;
-
+      double tempo;
       Console.WriteLine("Escreva a duração do evento em segundos : \n");
       tempo = Convert.ToDouble(Console.ReadLine());
 
